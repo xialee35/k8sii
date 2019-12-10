@@ -17,6 +17,6 @@ limitations under the License.
 package controllerexample
 
 const (
-	GroupName = "controllerexample"
+	GroupName = "controllerexample.io"
 	Version   = "v1alpha1"
 )
