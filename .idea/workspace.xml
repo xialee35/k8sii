@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a859bccd-ecf0-4ff0-87d7-cf34a6b63614" name="Default Changelist" comment="" />
+    <list default="true" id="a859bccd-ecf0-4ff0-87d7-cf34a6b63614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../k8sii/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../k8sii/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,23 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="725">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/register.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/register.go">
+        <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/hello.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-              <folding>
-                <element signature="e#589#814#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -74,7 +83,7 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../k8sii" />
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -92,6 +101,7 @@
         <option value="$PROJECT_DIR$/pkg/apis/controllerexample/register.go" />
         <option value="$PROJECT_DIR$/pkg/apis/controllerexample/v1alpha1/register.go" />
         <option value="$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/types.go" />
+        <option value="$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/hello.go" />
       </list>
     </option>
   </component>
@@ -114,6 +124,32 @@
             <path>
               <item name="k8sii" type="b2602c69:ProjectViewProjectNode" />
               <item name="k8sii" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8sii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8sii" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8sii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8sii" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8sii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8sii" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerexample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8sii" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8sii" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="apis" type="462c0819:PsiDirectoryNode" />
+              <item name="controllerexample" type="462c0819:PsiDirectoryNode" />
+              <item name="v1alpha1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,6 +215,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -192,7 +229,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.40819672" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.29508197" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -273,20 +310,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/register.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding>
-            <element signature="e#589#814#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/../k8sii/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        <state relative-caret-position="725">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/hello.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../k8sii/pkg/apis/controllerexample/v1alpha1/register.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
